@@ -26,6 +26,10 @@ However, if you experience the AI as to weak, there are better ways to improve i
 
 Clientside executed code drawing to Canvas using no external libraries.
 
+You can play it directly from the repository through this link:
+
+https://raw.githack.com/RobertPeip/ChesszumSpass/master/HTML5/index.html
+
 # C# WinForms Application
 
 Can be run on any modern Windows PC.
