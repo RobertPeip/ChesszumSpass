@@ -100,6 +100,15 @@ function Opponent()
             }
          }
       }
+      
+      switch(settings.randomness)
+      {
+         case 1 : score = score - 16 + Math.floor(Math.random() * 32); break; 
+         case 2 : score = score - 64 + Math.floor(Math.random() * 128); break; 
+         case 3 : score = score - 256 + Math.floor(Math.random() * 512); break; 
+         case 4 : score = score - 1024 + Math.floor(Math.random() * 2048); break;
+      }
+      
       return score;
    }
    
